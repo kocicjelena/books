@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Seating Chart</title>
+    <link rel="stylesheet" href="css.css" />
+	  <script type='text/javascript' src='js/jquery-1.9.1.js'></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script>
+     	$(document).ready(function(){
+			$.ajax({
+				type: "GET",
+				url: 'http://jelenakocic/books/books.xml',
+				crossDomain: true,
+				//Content-type: "application/xml",
+				//Access-Control-Allow-Origin: "http://localhost:8070",
+				dataType: "xml",
+				success: function(xml) {
+					$(xml).find('books').each(function(){
+						var id = $(this).find('id').text();
+						var url = $(this).find('url').text();
+						var title = $(this).find('title').text();
+						$('<div class="items" id="link_'+id+'"></div>').html('<a href="'+url+'">'+title+'</a>').appendTo('#page-wrap');
+						$(this).find('identifier').each(function(){
+							var type = $(this).find('type').text();
+							var value = $(this).find('value').text();
+							$('<div class="type"></div>').html(type).appendTo('#link_'+id);
+							$('<div class="value"></div>').html(value).appendTo('#link_'+id);
+						});
+					});
+				}
+			});
+		});
+     </script>
+</head>
+<body>
+
+    <div>Seating Assignments</div>
+    <div class="note">Rules: no more than 4 books per table. Must have at least one book of each gender at a full table.</div>
+    <div id="main" data-bind="foreach: tables">
+        <div class="table">
+            <span data-bind="text: books.id"></span>
+            <div class="seats" data-bind="sortable: { data: books, allowDrop: $root.isTableFull }">
+                <div class="book" data-bind="text: name"></div>
+            </div>
+            <div class="count" data-bind="text: books().length + '/' + $root.maximumBoooks, css: { ready: books().length < $root.maximumBooks }"></div>
+        </div>
+    </div>
+
+    <div id="extra">
+        <div>Available Students</div>
+        <div class="new" data-bind="sortable: availableBooks">
+            <div class="book" data-bind="text: name"></div>
+        </div>
+    </div>
+
+    <div id="message" data-bind="flash: lastAction"></div>
+    <div id="error" data-bind="flash: lastError"></div>
+
+    <div id="master">
+        <div>Master List</div>
+        <table>
+            <tr>
+                <th></th>
+                <th>Seat One</th>
+                <th>Seat Two</th>
+                <th>Seat Three</th>
+                <th>Seat Four</th>
+            </tr>
+            <tbody data-bind="foreach: tables">
+                <tr>
+                    <th data-bind="text: books.id"></th>
+                    <!-- ko foreach: books -->
+                    <td data-bind="text: name"></td>
+                    <!-- /ko -->
+                </tr>
+            </tbody>
+            <tr>
+                <th>Available</th>
+                <!-- ko foreach: availableBooks -->
+                <td data-bind="text: name"></td>
+                <!-- /ko -->
+            </tr>
+        </table>
+    </div>
+
+    <script type='text/javascript' src='js/jquery-1.9.1.js'></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type='text/javascript' src="js/knockout-3.3.0.js"></script>
+    <script type='text/javascript' src="js/knockout-sortable.js"></script>
+	<script type='text/javascript' src="js/js1.js"></script>
+   <!-- <script type='text/javascript' src="js/js.js"></script>
+	<script type='text/javascript' src="js/script.js"></script>-->
+</body>
+</html>

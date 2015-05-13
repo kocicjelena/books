@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+  <list_title>first shelf</list_title>
+  <blurb></blurb>
+  <url>http://books.google.com/books?uid=117450160758733179729&amp;as_coll=1001</url>
+  <books>
+    <book>
+      <id>hFik0k8H0UsC</id>
+      <url>http://books.google.com/books?id=hFik0k8H0UsC</url>
+      <title>Twenty Recipes for Programming MVC 3</title>
+      <contributor>Jamie Munro</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1449309860</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>diqHjRjMhW0C</id>
+      <url>http://books.google.com/books?id=diqHjRjMhW0C</url>
+      <title>Wicked Cool Java: Code Bits, Open-source Libraries, and Project Ideas</title>
+      <contributor>Brian D. Eubanks</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1593270615</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>TsHVAbd-kpUC</id>
+      <url>http://books.google.com/books?id=TsHVAbd-kpUC</url>
+      <title>Java 7 New Features Cookbook</title>
+      <contributor>Richard Martin Reese, Jennifer L. Reese</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1849685630</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>DVnQxlAHbEIC</id>
+      <url>http://books.google.com/books?id=DVnQxlAHbEIC</url>
+      <title>Java 7 Jax-Ws Web Services</title>
+      <contributor>Deepak Vohra</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1849687218</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>edqP-9fFwx8C</id>
+      <url>http://books.google.com/books?id=edqP-9fFwx8C</url>
+      <title>JavaScript Programmer&apos;s Reference</title>
+      <contributor>Thomas Valentine, Jon Reid</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1430246294</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>3NQhBTNKJB8C</id>
+      <url>http://books.google.com/books?id=3NQhBTNKJB8C</url>
+      <title>Building iPhone Apps with HTML, CSS, and JavaScript: Making App Store Apps Without Objective-C or Cocoa</title>
+      <contributor>Jonathan Stark</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1449382916</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>BEcj5im1i4wC</id>
+      <url>http://books.google.com/books?id=BEcj5im1i4wC</url>
+      <title>20 Recipes for Programming PhoneGap: Cross-Platform Mobile Development for Android and iPhone</title>
+      <contributor>Jamie Munro</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1449334407</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>el_xAwAAQBAJ</id>
+      <url>http://books.google.com/books?id=el_xAwAAQBAJ</url>
+      <title>Enterprise Web Development: Building HTML5 Applications: From Desktop to Mobile</title>
+      <contributor>Yakov Fain, Victor Rasputnis, Anatole Tartakovsky, Viktor Gamov</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1449357059</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>ptiYBAAAQBAJ</id>
+      <url>http://books.google.com/books?id=ptiYBAAAQBAJ</url>
+      <title>JavaScript &amp; jQuery: The Missing Manual</title>
+      <contributor>David Sawyer McFarland</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1491948612</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>yNV20ZuBlOwC</id>
+      <url>http://books.google.com/books?id=yNV20ZuBlOwC</url>
+      <title>Pro jQuery</title>
+      <contributor>Adam Freeman</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1430240962</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>dFbM3LyEB1wC</id>
+      <url>http://books.google.com/books?id=dFbM3LyEB1wC</url>
+      <title>jQuery UI</title>
+      <contributor>Eric Sarrion</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>144932519X</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>laM1lPDuwecC</id>
+      <url>http://books.google.com/books?id=laM1lPDuwecC</url>
+      <title>Web Design with HTML and CSS Digital Classroom</title>
+      <contributor>AGI Creative Team, Jennifer Smith, Jeremy Osborn</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>111809428X</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>ls6pk8OKCY0C</id>
+      <url>http://books.google.com/books?id=ls6pk8OKCY0C</url>
+      <title>Smashing jQuery</title>
+      <contributor>Jake Rutter</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>0470977361</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>lZbJAQAAQBAJ</id>
+      <url>http://books.google.com/books?id=lZbJAQAAQBAJ</url>
+      <title>Pro iOS and Android Apps for Business: with jQuery Mobile, node.js, and MongoDB</title>
+      <contributor>Frank Zammetti</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1430260718</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>zbL4AAAAQBAJ</id>
+      <url>http://books.google.com/books?id=zbL4AAAAQBAJ</url>
+      <title>Mobile First Design with Html5 and CSS3</title>
+      <contributor>Jason Gonzalez</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1849696470</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>KakLAAAAQBAJ</id>
+      <url>http://books.google.com/books?id=KakLAAAAQBAJ</url>
+      <title>Oracle PL/SQL: Expert Techniques for Developers and Database Administrators</title>
+      <contributor>Lakshman Bulusu</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1584506121</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>WyKZuGDelEUC</id>
+      <url>http://books.google.com/books?id=WyKZuGDelEUC</url>
+      <title>Html5 and Css3 Responsive Web Design Cookbook</title>
+      <contributor>Benjamin LaGrone</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1849695458</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>gaNwl2azgcsC</id>
+      <url>http://books.google.com/books?id=gaNwl2azgcsC</url>
+      <title>Smashing Mobile Web Development</title>
+      <contributor>G. Avola, Jon Raasch</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1118348133</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>P9xdAgAAQBAJ</id>
+      <url>http://books.google.com/books?id=P9xdAgAAQBAJ</url>
+      <title>Mobile-first Bootstrap</title>
+      <contributor>Alexandre Magno</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>178328580X</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>RJbYAwAAQBAJ</id>
+      <url>http://books.google.com/books?id=RJbYAwAAQBAJ</url>
+      <title>Developing Mobile Websites with HTML5</title>
+      <contributor>David Karlins</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1305090543</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>n5kDwCotZ1QC</id>
+      <url>http://books.google.com/books?id=n5kDwCotZ1QC</url>
+      <title>JQuery: Novice to Ninja</title>
+      <contributor>Earle Castledine, Craig Sharkie</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>0987153072</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>n6arJlPuiA0C</id>
+      <url>http://books.google.com/books?id=n6arJlPuiA0C</url>
+      <title>Pro Android Web Apps: Develop for Android using HTML5, CSS3 &amp; JavaScript</title>
+      <contributor>Damon Oehlman, Sébastien Blanc</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1430232773</value>
+      </identifier>
+      <labels />
+    </book>
+    <book>
+      <id>QwBqMCnLT-8C</id>
+      <url>http://books.google.com/books?id=QwBqMCnLT-8C</url>
+      <title>JQuery Mobile Web Development Essentials</title>
+      <contributor>Raymond Camden, Andy Matthews</contributor>
+      <identifier>
+        <type>ISBN</type>
+        <value>1849517274</value>
+      </identifier>
+      <labels />
+    </book>
+  </books>
+  <add_token>ACfU3U1tIIdqpIv6xWIbAOElvW7MO4XLWg</add_token>
+  <remove_token>ACfU3U21jRHRwkffWAKqxxya9sgQtd_gDw</remove_token>
+  <ack_token>ACfU3U1d5FjsUkN3OKiPgcz3At4lk_3vsA</ack_token>
+</library>
