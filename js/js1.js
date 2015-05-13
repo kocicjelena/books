@@ -4,6 +4,31 @@ ko.bindingHandlers.flash = {
         $(element).hide();
     },
     update: function(element, valueAccessor) {
+		
+        $.ajax({
+				type: "GET",
+				//url: 'http://jelenakocic/books/books.xml',
+				url: "http://kocicjelena.github.io/books/books.xml",
+				crossDomain: true,
+				//Content-type: "application/xml",
+				//Access-Control-Allow-Origin: "http://localhost:8070",
+				dataType: "xml",
+				success: function(xml) {
+					$(xml).find('books').each(function(){
+						var id = $(this).find('id').text();
+						var url = $(this).find('url').text();
+						var title = $(this).find('title').text();
+						$('<div class="items" id="link_'+id+'"></div>').html('<a href="'+url+'">'+title+'</a>').appendTo('#page-wrap');
+						$(this).find('identifier').each(function(){
+							var type = $(this).find('type').text();
+							var value = $(this).find('value').text();
+							$('<div class="type"></div>').html(type).appendTo('#link_'+id);
+							$('<div class="value"></div>').html(value).appendTo('#link_'+id);
+						});
+					});
+				}
+			});
+ 
         var value = ko.utils.unwrapObservable(valueAccessor());
         if (value) {
             $(element).stop().hide().text(value).fadeIn(function() {
@@ -36,6 +61,7 @@ var SeatingChartModel = function(tables, availableBooks) {
     this.availableBooks = ko.observableArray(availableBooks);
     this.availableBooks.id = "Available Books";
     this.lastAction = ko.observable();
+	this.lastBook = ko.observable();
     this.lastError = ko.observable();
     this.maximumBooks = 4;
     this.isTableFull = function(parent) {

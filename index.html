@@ -10,8 +10,12 @@
      	$(document).ready(function(){
 			$.ajax({
 				type: "GET",
+<<<<<<< HEAD:books.html
 				//url: 'http://jelenakocic/books/books.xml',
 				url: "http://kocicjelena.github.io/books/books.xml",
+=======
+				url: 'http://kocicjelena.github.io/books/books.xml',
+>>>>>>> origin/gh-pages:index.html
 				crossDomain: true,
 				//Content-type: "application/xml",
 				//Access-Control-Allow-Origin: "http://localhost:8070",
@@ -57,7 +61,7 @@
 
     <div id="message" data-bind="flash: lastAction"></div>
     <div id="error" data-bind="flash: lastError"></div>
-
+ <div id="books" data-bind="flash: lastBook"></div>
     <div id="master">
         <div>Master List</div>
         <table>
