@@ -10,15 +10,9 @@
      	$(document).ready(function(){
 			$.ajax({
 				type: "GET",
-<<<<<<< HEAD:books.html
-				//url: 'http://jelenakocic/books/books.xml',
+				//HEAD: index.html,
 				url: "http://kocicjelena.github.io/books/books.xml",
-=======
-				url: 'http://kocicjelena.github.io/books/books.xml',
->>>>>>> origin/gh-pages:index.html
 				crossDomain: true,
-				//Content-type: "application/xml",
-				//Access-Control-Allow-Origin: "http://localhost:8070",
 				dataType: "xml",
 				success: function(xml) {
 					$(xml).find('books').each(function(){
